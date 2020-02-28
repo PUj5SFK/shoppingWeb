@@ -1,0 +1,306 @@
+/*公共样式*/
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+@font-face {
+	font-family: 'icomoon';
+src:  url('../fonts/icomoon.eot?7kkyc2');
+src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+	url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+	url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+	url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+  }
+
+ .fr .icomoon {
+	  font-family: 'icomoon';
+	  font-size: 16px;
+	  line-height: 26px;
+  }
+/*版心*/
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+.style-red {
+	color: #c81623;
+}
+
+.spacer {
+	width: 1px;
+	height: 12px;
+	background-color: #666;
+	margin: 9px 12px 0;
+}
+/* 顶部快捷导航开始 */
+.shortcut {
+	height: 31px;
+	background-color: #f1f1f1;
+	line-height: 31px;
+}
+.shortcut li {
+	float: left;
+}
+
+/* 顶部快捷导航结束 */
+
+/* header区域开始 */
+.header {
+	position: relative;
+	height: 105px;
+}
+.logo {
+	position: absolute;
+	top: 25px;
+	left: 3px;
+	width: 176px;
+	height: 56px;
+	
+}
+.logo a {
+	display: block;
+	overflow:hidden;/* 这个放到开头，我一开始放到结尾列 */
+	width: 176px;
+	height: 56px;
+	background: url(../img/logo.png) no-repeat;	 
+	text-indent:-999px;
+	/* font-size: 0;  */
+}
+
+.search {
+	position: absolute;
+	left: 348px;
+	top: 25px;
+}
+.search .text {
+	float: left;
+	width: 445px;
+	height: 32px;
+	padding-left: 10px;
+	border: 2px solid #b1191a;
+	font-size: 14px;
+	color: #666;
+	
+}
+.search .btn {
+	float: left;
+	width: 81px;
+	height: 36px;
+	border: 0;
+	background-color: #b1191a;
+	font-size: 16px;
+	color: #fff;
+}
+
+.hotwords {
+	position: absolute;
+	top: 65px;
+	left: 348px;
+}
+.hotwords a {
+	margin: 0 10px;
+}
+.shopcar {
+	position: absolute;
+	top: 25px;
+	right: 64px;
+	width: 138px;
+	height: 34px;
+	border: 1px solid #dfdfdf;
+	background-color: #f7f7f7;
+	font-size: 12px;
+	line-height: 34px;
+	text-align: center;
+	color: #666;
+}
+.shopcar .car {
+	font-family: 'icomoon';	
+	color: #da5555;
+}
+.shopcar .arrow {
+	margin-left: 5px;
+	font-family: 'icomoon';
+
+}
+.shopcar .count {
+	position: absolute;
+	top: -4px;
+	/* 之所以用left而不用right是因为如果数量多则会导致文字往左走，而left不存在这样的问题 */
+	left: 105px;
+	height: 14px;
+	padding: 0 3px;
+	background-color: #e60012;
+	color: #fff;
+	line-height: 14px;
+	border-radius: 7px 7px 7px 0;
+
+}
+/* header区域结束 */
+
+/* nav start */
+.nav {
+	height: 45px;	
+	border-bottom: 2px solid #b1191a;
+	line-height: 45px;
+}
+
+.dropdown {
+	width: 209px;
+}
+.dropdown .dt {
+	height: 45px;	
+	background-color: #b1191a;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	line-height: 45px;
+}
+
+.dropdown .dd {		
+	height: 465px;
+	margin-top: 2px;
+	background-color: #c81623;
+}
+.itme_list {
+	height: 31px;
+	padding: 0 10px;
+	margin-left: 1px;
+	line-height: 31px;
+	color: #fff;
+	font-size: 14px;
+	transition: margin-left 0.2s;
+}
+.itme_list:hover {
+	margin-left: 2px;
+	background-color: #fff;
+}
+
+.itme_list a {
+	float: left;
+}
+.itme_list i {
+	float: right;
+	font-family: 'icomoon';
+	font-size: 18px;
+	color: #fff;
+}
+
+.itme_list a {
+	color: #fff;
+}
+
+.itme_list:hover a {
+	color: #c81623;
+}
+
+.navitems {
+	margin-left: 15px;
+}
+
+.navitems li {
+	float: left;
+}
+
+.navitems li a {
+	display: inline-block;
+	height: 45px;
+	padding: 0 25px;
+	line-height: 45px;
+	font-size: 16px;
+	color: #333;
+}
+
+.navitems li a:hover {
+	color: #b1191a;
+}
+/* nav end */
+
+/* footer start */
+
+.footer {
+	height: 386px;
+	padding-top: 30px;
+	background: #f5f5f5;
+}
+.mod_service {
+	height: 79px;
+	border-bottom: 1px solid #ccc;	
+}
+.mod_service li {
+	float: left;
+	width: 240px;
+	height: 79px;
+}
+.mod_service_icon {
+	float: left;
+	width: 50px;
+	height: 50px;	
+	margin-left: 35px;
+	background: url(../img/icons.png) no-repeat;
+}
+.mod_service_zheng {
+	background-position:-252px -2px;
+}
+.mod_service_kuai {
+	background-position:-255px -53px;
+}
+.mod_service_bao {
+	background-position:-256px -106px;
+}
+.mod_service_te {
+	background-position:-257px -156px;
+}
+.mod_service_bang {
+	background-position:-257px -208px;
+}
+.mod_service_tit {
+	float: left;
+	margin-left: 5px;
+}
+
+.mod_service_tit h5 {
+	margin: 5px 0;
+}
+
+.mod_help {
+	height: 187px;
+	margin-top: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.mod_help_list {
+	float: left;
+	width: 150px;
+	padding: 15px 0 0 50px;
+}
+
+.mod_help_list dt {
+	height: 30px;
+	font-size: 16px;
+	color: #333;
+}
+.mod_help_list dd {
+	height: 22px;
+}
+.mod_help_app dt,
+.mod_help_app p {
+	padding-left: 15px;
+}
+ 
+.mod_help_app p {
+	margin: 5px 0;
+}
+.mod_copyright {
+	text-align: center;
+}
+.mod_copyright_links {
+	margin: 20px 0 15px 0;
+}
+.mod_copyright_info {
+	line-height: 20px;
+}
+/* footer end */

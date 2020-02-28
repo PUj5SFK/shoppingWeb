@@ -1,0 +1,288 @@
+.main {
+    width: 981px;
+    height: 455px;
+    margin: 10px 0 0 219px;
+}
+
+.focus {
+    position: relative;
+    float: left;
+    width: 720px;
+    height: 100%;
+    background-color: purple;
+}
+.arrow_l,
+.arrow_r {
+    position: absolute;
+    top: 50%; 
+    width: 25px;
+    height: 40px;
+    margin-top: -15px;
+    background-color: rgba(105, 105, 105, .5);
+    text-align: center;
+    line-height: 40px;
+    font-family: 'icomoon';
+    font-size: 18px;
+    color: #fff;  
+}
+.arrow_r {
+    right: 0;
+}
+.arrow_l:hover,
+.arrow_r:hover
+{
+    background-color: rgba(0, 0, 0, 0.363);
+    color: white;
+}
+.focus img {
+    width: 100%;
+}
+
+.circle {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.circle li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border: 2px solid rgba(0,0,0,0.2);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
+}
+
+.circle li:hover {
+    background-color: #fff;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 100%;
+}
+.news {
+    height: 163px;
+    border: 1px solid #ccc;
+}
+.news-hd {
+    height: 32px;
+    padding: 0 15px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 14px;
+    line-height: 32px;
+
+}
+.news-hd a {
+    float: right;
+    font-size: 10px;
+}
+
+.news-bd {  
+    padding: 10px 0 0 15px;
+}
+
+.news-bd li {
+    height: 23px;
+}
+.life_service {
+    overflow: hidden;
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.life_service ul {
+    width: 252px; 
+}
+.life_service li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.life_service li a {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+    text-align: center;
+}
+
+.life_service .hot {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/jian.png) no-repeat;
+}
+
+.life_service_icon {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 10px auto;
+    background: url(../img/icons.png) no-repeat ;
+}
+.life_service_icon_huafei {
+    background-position: -16px -16px;
+}
+.life_service_icon_jipiao {
+    background-position: -78px -18px;
+}
+.bargain {
+    height: 76px;    
+    /* 应该为76px 这里没有量准 */
+    margin-top: 5px;
+    background-color: red;
+}
+.bargain img {
+    width: 100%;
+    height: 100%;
+}
+
+.recommend {
+    height: 163px;
+    margin-top: 12px;
+
+}
+
+.recom-hd {
+    float: left;
+    width: 200px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+.recom-hd img {
+    margin: 30px 0 10px 0;
+}
+.recom-hd p {
+    font-size: 18px;
+    color: #fff;
+}
+.recom-bd {
+    float: left;
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+.recom-bd li {
+    float: left;
+    height: 145px;
+    width: 249px;
+    margin-top: 10px;
+    border-right: 1px solid #ccc;
+}
+
+.recom-bd .last {
+    border-right: 0;
+}
+
+.box-hd {
+    height: 30px; 
+    margin-top: 25px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box-hd h4 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #c81623;
+}
+
+.box-hd ul {
+    line-height: 30px;
+    float: right;
+}
+
+.box-hd ul li {
+    float: left;
+    margin: 0 15px;
+}
+
+.box-hd ul .spacer {
+    width: 1px;
+    height: 12px;
+    margin: 10px 0 0;
+    background-color: #999;
+}
+
+.box-bd {
+    height: 360px;
+}
+.w209 {
+    width: 209px;
+    background-color: #f9f9f9;
+}
+
+.w329 {
+    width: 329px;
+}
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+    
+}
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+.box-bd li {
+    float: left;
+    height: 360px;
+}
+
+.tab-content-item {
+    border-bottom: 1px solid #ccc;
+}
+.tab-content-list {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.tab-content-list li {
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 9px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+.box-bd img {
+    transition: all 200ms;
+}
+.box-bd img:hover {
+    margin-left: 5px;
+}
+/* 电梯导航 */
+.fixedtool {
+    position: fixed;
+    left: 50%;
+    top: 350px;
+    width: 66px;
+    margin-left: -676px;
+}
+
+.fixedtool li {
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+    
+}
+.fixedtool .current {
+    background-color: #c81623;
+    color: #fff;
+}
+
+
+
